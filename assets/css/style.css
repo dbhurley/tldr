@@ -1803,6 +1803,7 @@ hr.large {
  * Page styles
  */
 .wrap {
+  margin-top: 50px;
   width: 94%;
   margin-left: 3%;
 }
@@ -1959,9 +1960,11 @@ hr.large {
 .page,
 .post,
 .blog-post {
-  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.15);
+/*  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.15);
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.15);
+*/
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 }
 .page,
 .post {
@@ -2427,7 +2430,6 @@ hr.large {
     width: 100%;
   }
   .wrap {
-    margin-top: 50px;
     margin-left: 0;
   }
   .header .social-icons {
