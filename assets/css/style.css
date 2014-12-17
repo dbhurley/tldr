@@ -2145,7 +2145,7 @@ hr.large {
 }
 
 .post-content h2 a {
-  text-decoration: none
+  text-decoration: none;
 }
 .post-content img {
   max-width: 100%;
