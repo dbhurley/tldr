@@ -1995,10 +1995,6 @@ hr.large {
   border-top-right-radius: 4px;
 }
 
-.post-area .blog-post .post-content {
-  padding-top: 0px;
-}
-
 .blog-post .post-image img {
  border-top-left-radius: 4px;
   border-top-right-radius: 4px; 
@@ -2145,7 +2141,11 @@ hr.large {
 }
 .post-content h2,
 .post-content h3 {
-  padding-top: 15px;
+  /*padding-top: 15px;*/
+}
+
+.post-content h2 a {
+  text-decoration: none
 }
 .post-content img {
   max-width: 100%;
