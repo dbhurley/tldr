@@ -139,6 +139,9 @@
                 <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
               </div>
             </div>
+            {% if photo %}
+                <img src="{{ photo.width_600 }}" alt="Picture {{ loop.index }}" />
+            {% endif %}
             <div class="post-body" data-type-cleanup="true">
               {{ post.content }}
             </div>
