@@ -1,7 +1,7 @@
-theme-apex
-==========
+theme-gridly
+============
 
-The official theme repo for Apex. Fork this to use it as a boilerplate.
+The official theme repo for Gridly. Fork this to use it as a boilerplate.
 
 ## Getting Started
 
