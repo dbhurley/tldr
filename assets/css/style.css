@@ -499,7 +499,7 @@ div.post div.post-body {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  padding: 30px;
+  padding: 20px 30px;
 }
 div.post div.post-body .post-content {
   display: block;
@@ -666,7 +666,7 @@ div.post h1 {
   padding-bottom: 10px;
 }
 div.post h2 {
-  margin-top: 0;
+  margin-top: 20px;
   padding-top: 0;
   color: #000000;
 }
@@ -685,8 +685,8 @@ div.post div.post-body ol li {
 div.post div.post-info {
   display: block;
   clear: both;
-  width: 100%;
-  padding: 0px 30px;
+  /*width: 100%;*/
+  padding: 0px 30px 30px;
 }
 div.post div.post-info:after {
   visibility: hidden;
