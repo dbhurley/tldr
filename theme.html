@@ -169,6 +169,7 @@
             {{ post.content}}
           </div>
           <div class="post-footer">
+            <p class="post-link"><a href="/">&larr; Back</a></p>
             {{ theme.social.bar }}
             {% if post.tags %}
               <p><strong>Tags:</strong> {{ post.tags|format_tags(humanize=True) }}</p>
@@ -259,12 +260,14 @@
 
       {% endif %}
 
+<!--
       <footer class="footer">
         <div class="copyright">
           <p class="pull-left">All rights Reserved &copy; <a href="/">{{ site.name }}</a>.</p>
         </div>
       </footer>
     </div>
+-->
 
     {% endif %}
 
