@@ -2298,6 +2298,10 @@ hr.large {
   padding: 0;
   list-style: none;
   text-align: center;
+  float:left;
+}
+.social-icons form {
+  float:right;
 }
 .social-icons li {
   display: inline-block;
