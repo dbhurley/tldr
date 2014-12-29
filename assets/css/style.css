@@ -1973,14 +1973,20 @@ hr.large {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 }
 .page,
-.post,
-.post-header
+.post
  {
 
   width: 740px;
   width: 46.25rem;
   margin: 20px auto;
   background: #ffffff;
+}
+.post-header
+ {
+
+  width: 740px;
+  width: 46.25rem;
+  margin: 20px auto;
 }
 .post-area {
   margin-bottom: 30px;
