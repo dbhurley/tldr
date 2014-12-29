@@ -36,7 +36,8 @@
 
     {% else %}
     <div class="wrap">
-      <header class="header {% if not is_home %} post-header {% endif %}">
+      {% if not is_home %}
+      <header class="header post-header">
         <!--<div class="avatar">
           <a href="/"><img src="{{ site.avatar }}" class="img-circle" alt="{{ site.author }}" /></a>
         </div>
@@ -101,6 +102,13 @@
           </ul>
         </div>
       </header>
+      {% else %}
+        <header class="header">
+          <div class="logo">
+            <h1 class='text-center'><a href="/" rel="home">tldr.dbhurley.com</a></h1>
+          </div>
+        </header>
+      {% endif %}
 
       {% if is_home or is_tag %}
       <div class="post-area">
