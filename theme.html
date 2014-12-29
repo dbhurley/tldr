@@ -36,7 +36,7 @@
 
     {% else %}
     <div class="wrap">
-      <header class="header">
+      <header class="header {% if not is_home %} post-header {% endif %}">
         <!--<div class="avatar">
           <a href="/"><img src="{{ site.avatar }}" class="img-circle" alt="{{ site.author }}" /></a>
         </div>
@@ -57,6 +57,7 @@
             </ul>
           </nav> -->
         </div>
+
         <div class="social-icons">
           <ul>
             {% if site.twitter %}
